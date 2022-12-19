@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla');
+
+:root {
+    --color-primary: #F7F3E7;
+    --color-secondary: #ED8564;
+    --color-accent: #FFCA78;
+    --color-text: #5D1055;
+    --color-background: #F9CBBD;
+    --font-body: karla, sans-serif;
+}
+
+* {
+    color: var(--color-text);
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    margin: 0 auto;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0 90px;
+}
+
+h2 {
+    float: left;
+    margin: -40px 0 0 -5px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    transform: rotate(-3deg);
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+img {
+    display: block;
+    margin: 30px auto 20px;
+}
+
+.art-card {
+    position: relative;
+    text-align: justify;
+    background-color: var(--color-primary);
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-bottom: 70px;
+}
+
+.has-fake {
+    position: absolute;
+    right: 20px;
+    background-color: var(--color-accent);
+    padding: 15px;
+    border-radius: 50px;
+}
